@@ -1,17 +1,20 @@
 mod problems {
-    pub mod _1;
+    pub mod _2;
 }
 
-use problems::_1::Solution;
+use problems::_2::Solution;
 
 fn main() {
-    let word1 = String::from("abc");
-    let word2 = String::from("pqrst");
-    let s = Solution::merge_alternately(word1, word2);
+    let word1 = String::from("TAUXXTAUXXTAUXXTAUXXTAUXX");
+    let word2 = String::from("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX");
+    let s = Solution::gcd_of_strings(word1, word2);
     println!("{}", s);
+
+    // let n = Solution::kids_with_candies(vec![1, 2, 3], 12);
+    // println!("N: {:?}", n);
 }
 
-// struct Solution{}
+// pub struct Solution{}
 // impl Solution {
 //     pub fn _fn(){}
 // }
