@@ -1,20 +1,9 @@
 mod problems {
-    pub mod _2;
+    pub mod _3;
 }
 
-use problems::_2::Solution;
-
+use problems::_3::Solution;
 fn main() {
-    let word1 = String::from("TAUXXTAUXXTAUXXTAUXXTAUXX");
-    let word2 = String::from("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX");
-    let s = Solution::gcd_of_strings(word1, word2);
-    println!("{}", s);
-
-    // let n = Solution::kids_with_candies(vec![1, 2, 3], 12);
-    // println!("N: {:?}", n);
+let s = Solution::kids_with_candies(vec![4,2,1,1,2], 1);
+    println!("{:?}", s);
 }
-
-// pub struct Solution{}
-// impl Solution {
-//     pub fn _fn(){}
-// }
