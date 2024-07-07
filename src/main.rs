@@ -1,9 +1,9 @@
 mod problems {
-    pub mod _3;
+    pub mod _4;
 }
 
-use problems::_3::Solution;
+use problems::_4::Solution;
 fn main() {
-let s = Solution::kids_with_candies(vec![4,2,1,1,2], 1);
-    println!("{:?}", s);
+let s = Solution::can_place_flowers(vec![1,0,0,0,1], 1);
+    println!("{}", s);
 }
