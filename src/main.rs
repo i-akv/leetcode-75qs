@@ -1,9 +1,9 @@
 mod problems {
-    pub mod _4;
+    pub mod _5;
 }
 
-use problems::_4::Solution;
+use problems::_5::Solution;
 fn main() {
-let s = Solution::can_place_flowers(vec![1,0,0,0,1], 1);
+    let s = Solution::reverse_vowels("a.".to_string());
     println!("{}", s);
 }
