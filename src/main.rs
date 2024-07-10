@@ -1,9 +1,9 @@
 mod problems {
-    pub mod _5;
+    pub mod _6;
 }
-
-use problems::_5::Solution;
+use problems::_6::Solution;
 fn main() {
-    let s = Solution::reverse_vowels("a.".to_string());
+    let i = "  a     good      example   ";
+    let s = Solution::reverse_words(i.to_string());
     println!("{}", s);
 }

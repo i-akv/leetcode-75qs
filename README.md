@@ -9,7 +9,8 @@
 - [x]  3. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)
 - [x]  4. [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 - [x]  5. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
-- [ ]  6. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+- [x]  6. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+- [ ]  7. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 
 ...
 
