@@ -1,9 +1,9 @@
 mod problems {
-    pub mod _6;
+    pub mod _7;
 }
-use problems::_6::Solution;
+use problems::_7::Solution;
+
 fn main() {
-    let i = "  a     good      example   ";
-    let s = Solution::reverse_words(i.to_string());
-    println!("{}", s);
+    let answer = Solution::product_except_self(vec![1,2,3,4]);
+    println!("{:?}", answer);
 }
