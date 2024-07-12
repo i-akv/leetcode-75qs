@@ -2,29 +2,19 @@ pub struct Solution{}
 
 impl Solution {
     pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
-        let mut zeroes = 0;
-        let mut product = 1;
-        for num in nums.iter() {
-            if *num==0 {zeroes+=1;continue;}
-            product*=*num;
+        let len = nums.len();
+        let mut product = vec![1; len];
+
+        for i in 1..len {
+            product[i] = product[i-1]*nums[i-1];
         }
 
-        let mut product_vec = Vec::new();
-        for num in nums.iter() {
-            match zeroes {
-                0 => {product_vec.push(product/(*num))},
-                1 => {
-                    match num {
-                        0 => { product_vec.push(product) },
-                        _ => {
-                            product_vec.push(0);
-                        }
-                    }
-                },
-                _=>{product_vec.push(0)}
-            }
+        let mut rp = 1;
+        for i in (0..len-1).rev() {
+            rp *= nums[i+1];
+            product[i] *= rp;
         }
 
-        product_vec
+        product
     }
 }

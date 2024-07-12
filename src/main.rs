@@ -1,9 +1,10 @@
 mod problems {
-    pub mod _7;
+    pub mod _8;
 }
-use problems::_7::Solution;
+use problems::_8::Solution;
 
 fn main() {
-    let answer = Solution::product_except_self(vec![1,2,3,4]);
-    println!("{:?}", answer);
+    let v = vec![20,100,10,12,5,13];
+    let ans = Solution::increasing_triplet(v);
+    println!("{}", ans);
 }
