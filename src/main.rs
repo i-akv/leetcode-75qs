@@ -1,10 +1,11 @@
 mod problems {
-    pub mod _8;
+    pub mod _10;
 }
-use problems::_8::Solution;
+
+use problems::_10::Solution;
 
 fn main() {
-    let v = vec![20,100,10,12,5,13];
-    let ans = Solution::increasing_triplet(v);
-    println!("{}", ans);
+    let mut vec = vec![0,1,0,3,12];
+    let ans = Solution::move_zeroes(&mut vec);
+    println!("{:?}", vec);
 }
