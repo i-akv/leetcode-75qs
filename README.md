@@ -14,7 +14,7 @@
 - [x]  8. [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) - [Solution](https://github.com/i-akv/dsa/blob/main/src/problems/_8.rs)
 - [x]  9. [String Compression](https://leetcode.com/problems/string-compression/description/) - [Solution](https://github.com/i-akv/dsa/blob/main/src/problems/_9.rs)
 - [x]  10. [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) - [Solution](https://github.com/i-akv/dsa/blob/main/src/problems/_10.rs)
-- [x]  11. []() - [Solution]()
+- [x]  11. [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) - [Solution](https://github.com/i-akv/dsa/blob/main/src/problems/_11.rs)
 
 ...
 
