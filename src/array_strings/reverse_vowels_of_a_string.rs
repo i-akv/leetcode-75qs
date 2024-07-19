@@ -1,4 +1,4 @@
-pub struct Solution{}
+pub struct Solution;
 impl Solution {
     pub fn reverse_vowels(s: String) -> String {
         let mut chars: Vec<char> = s.chars().collect();
@@ -23,4 +23,14 @@ impl Solution {
 
         chars.into_iter().collect()
     }
+}
+
+#[test]
+fn test_1() {
+    assert_eq!("holle", Solution::reverse_vowels("hello".to_string()));
+}
+
+#[test]
+fn test_2() {
+    assert_eq!("leotcede", Solution::reverse_vowels("leetcode".to_string()));
 }

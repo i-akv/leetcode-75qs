@@ -16,3 +16,19 @@ impl Solution {
         ptr == string_length
     }
 }
+
+#[test]
+fn test_1(){
+    let s = "abc".to_string();
+    let t = "ahbgdc".to_string();
+    let ans = Solution::is_subsequence(s, t);
+    assert_eq!(true, ans);
+}
+
+#[test]
+fn test_2(){
+    let s = "axc".to_string();
+    let t = "ahbgdc".to_string();
+    let ans = Solution::is_subsequence(s, t);
+    assert_eq!(false, ans);
+}

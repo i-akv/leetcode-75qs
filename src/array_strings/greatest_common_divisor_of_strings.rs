@@ -1,5 +1,4 @@
-
-pub struct Solution{}
+pub struct Solution;
 impl Solution {
     pub fn gcd_of_strings(str1: String, str2: String) -> String {
         let s1 = str1.clone() + &str2.clone();
@@ -19,5 +18,22 @@ impl Solution {
             Self::gcd_of_nums(b, a % b)
         }
     }
+}
 
+#[test]
+fn test_1() {
+    let ans = Solution::gcd_of_strings("ABCABC".to_string(), "ABC".to_string());
+    assert_eq!("ABC", ans);
+}
+
+#[test]
+fn test_2() {
+    let ans = Solution::gcd_of_strings("ABABAB".to_string(), "ABAB".to_string());
+    assert_eq!("AB", ans);
+}
+
+#[test]
+fn test_3() {
+    let ans = Solution::gcd_of_strings("LEET".to_string(), "CODE".to_string());
+    assert_eq!("", ans);
 }
