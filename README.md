@@ -30,6 +30,20 @@
 |-------|:----------:|:-:|:---------------------------------------------------------------------------------------------------:|
 | 14.   |     🟢     |[Maximum Average Subarray I](https://leetcode.com/problems/is-subsequence/description/)| [Solution](https://github.com/i-akv/dsa/blob/main/src/sliding_window/maximum_average_subarray_i.rs) |
 | 15.   |     🟡     |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)| [Solution](https://github.com/i-akv/dsa/blob/main/src/sliding_window/maximum_number_of_vowels_in_a_substring_of_given_length.rs) |
+| 16.   |     🟡     |[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)| [Solution](https://github.com/i-akv/dsa/blob/main/src/sliding_window/max_consecutive_ones_iii.rs) |
+| 17.   |     🟡     |[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)| [Solution](https://github.com/i-akv/dsa/blob/main/src/sliding_window/longest_subarray_of_1s_after_deleting_one_element.rs) |
+
+#### Prefix Sum
+| S.no. | Difficulty |Problem|                                            Solution                                            |
+|-------|:----------:|:-:|:----------------------------------------------------------------------------------------------:|
+| 18.   |     🟢     |[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)| [Solution](https://github.com/i-akv/dsa/blob/main/src/prefix_sum/find_the_highest_altitude.rs) |
+| 19.   |     🟢     |[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)|     [Solution](https://github.com/i-akv/dsa/blob/main/src/prefix_sum/find_pivot_index.rs)      |
+
+#### Hash Map / Set
+| S.no. | Difficulty |                                            Problem                                             | Solution |
+|-------|:----------:|:----------------------------------------------------------------------------------------------:|:--------:|
+| 20.   |     🟢     | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/) |    -     |
+
 
 ...
 
